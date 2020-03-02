@@ -17,18 +17,21 @@
         align-items: flex-start;
     }
 
-    .Name {
-        border: 2px solid green;
-    }
-
     textarea, .Input, button {
         width: 100%;
-        border: 1px solid black;
+        border: 2px solid black;
         font-size: 25px;
         border-radius: 5px;
         padding-left: 2px;
         box-shadow: 3px -3px 5px rgb(8, 5, 1);
     }
+
+    .Name {
+        border: 2px solid rgb(10, 68, 10);
+        background-color: green;
+        color: white;
+    }
+
 
     textarea {
         height: 150px;
@@ -39,7 +42,4 @@
         margin: auto;
     }
 
-    .Agree {
-        margin: 10px 0;
-    }
 }

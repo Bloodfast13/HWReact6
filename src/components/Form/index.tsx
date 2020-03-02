@@ -60,7 +60,7 @@ const LogForm = () => {
             ))}
             </div>
             <label>
-                <input className={style.Agree} type="checkbox" checked={isAgree} onChange={() => setIsAgree(!isAgree)} />
+                <input type="checkbox" checked={isAgree} onChange={() => setIsAgree(!isAgree)} />
                 Agree with the policy
             </label>
             <button type='submit'>Order</button>
